@@ -10,10 +10,10 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "canvas": "^2.0.0-alpha.5",
+    "canvas": "^2.0.0-alpha.12",
     "express": "^4.16.2",
     "gm": "^1.23.0",
     "ip": "^1.1.5",
-    "moment": "^2.19.2"
+    "moment": "2.22.0"
   }
 }

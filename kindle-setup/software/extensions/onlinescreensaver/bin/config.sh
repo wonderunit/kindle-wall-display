@@ -35,7 +35,10 @@ SCHEDULE="00:00-06:00=240 06:00-22:00=10 22:00-24:00=240"
 # URL of screensaver image. This really must be in the EXACT resolution of
 # your Kindle's screen (e.g. 600x800 or 758x1024) and really must be PNG.
 #IMAGE_URI="http://enter.the.domain/here/and/the/path/to/the/image.png"
-IMAGE_URI="http://192.168.0.185:3000/image/weather"
+
+MAC_ADDRESS=$( cat /sys/class/net/wlan0/address )
+
+IMAGE_URI=http://192.168.0.185:3000/image/$MAC_ADDRESS
 
 # folder that holds the screensavers
 SCREENSAVERFOLDER=/mnt/us/linkss/screensavers
