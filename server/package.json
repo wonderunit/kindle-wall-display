@@ -1,0 +1,19 @@
+{
+  "name": "kindle-display",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.5",
+    "express": "^4.16.2",
+    "gm": "^1.23.0",
+    "ip": "^1.1.5",
+    "moment": "^2.19.2"
+  }
+}

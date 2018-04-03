@@ -1,0 +1,24 @@
+{
+	"comment001": "MR Package Installer",
+	"comment002": "",
+	"comment003": "$Id: menu.json 11305 2014-12-23 14:56:54Z NiLuJe $",
+	"comment004": "",
+	"items": [
+	{
+		"name": "Helper",
+		"priority": -998,
+		"items": [
+		{
+			"name": "Install MR Packages",
+			"action": "./bin/mrinstaller.sh",
+			"params": "launch_installer",
+			"priority": -998,
+			"exitmenu": true,
+			"refresh": false,
+			"status": false,
+			"internal": "status Launching the MR Installer"
+		}
+		]
+	}
+	]
+}
